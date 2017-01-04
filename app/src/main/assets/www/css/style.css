@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRUOjZSKWg4xBWp_C_qQx0o.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShUOjZSKWg4xBWp_C_qQx0o.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxo05NJhCxBV64hQBJiatqx0.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBqg5eI2G47JWe0-AuFtD150.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxt5wBDjbAC_0C3a56xIGvxo.woff2) format('woff2');
+}
+*{margin:0px; padding:0px;}
+body{background:url(../images/bg.png) repeat; width:320px; margin:0 auto; font-family: 'Open Sans';}
+.full-width{width:100%; max-width:420px;} 
+.logo{background:url(../images/logo.png) no-repeat; width:208px; height:110px; margin:20px auto 30px auto;}
+.welcome .logo{background:url(../images/logo.png) no-repeat; width:208px; height:110px; margin:48% auto;}
+.outer-content{background:#d1e5ee; opacity:0.75; margin:0 20px; padding:10px; overflow:hidden;}
+.home-icon{background:url(../images/home-icon.jpg) no-repeat; width:32px; height:32px; background-size:cover; margin-right:10px; float:left;}
+.clear{clear:both;}
+.menu-left{width:49%; float:left;}
+.center{text-align:center;}
+.menu-icons{text-align:center;}
+.menu-right{width:49%; float:right;}
+.menu-left a,.menu-right a{ width:100%;}
+.menu-icons img{width:75px; padding:5px 5px 0 0;}
+
+.full-width .menu-icons img{width:46px;}
+.title-container{text-align:center; background:#1e6d92; border-radius:5px; padding:5px; color:#fff; font-weight:600;}
+.latest-articale{ margin:5px 0;}
+.latest-articale .title-container{text-align:left; border:1px solid #fff; font-weight:900; text-transform:capitalize; padding-left:10px;}
+.latest-titles h4,.mp3-latest-titles h4,.youtube-latest-titles h4{ font-size:10px; border-radius:5px; padding:5px; color:#fff; font-weight:600;text-align:left; border:1px solid #fff; text-transform:capitalize; padding-left:30px;}
+.latest-titles h4{background: url(../images/articale-icon.jpg) 10px center no-repeat #1e6d92; }
+.mp3-latest-titles h4{background: url(../images/mp3-icon.jpg) 10px center no-repeat #1e6d92; }
+.youtube-latest-titles h4{background: url(../images/youtube-icon.jpg) 10px center no-repeat #1e6d92; }
+.book-outer-container{overflow:hidden; margin:5px 0;}
+.ebook-container{float:left;width:28%; margin:5px; overflow:hidden;height:150px;}
+.ebook-container img{width:100% !important; height:auto !important;}
